@@ -17,7 +17,7 @@
       <module name="core" target="1.8" />
       <module name="discoveryserver" target="1.8" />
       <module name="spring-boot-web-app" target="1.8" />
-      <module name="web" target="1.8" />
+      <module name="web" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

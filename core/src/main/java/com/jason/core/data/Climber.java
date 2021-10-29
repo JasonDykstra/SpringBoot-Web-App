@@ -1,25 +1,18 @@
 package com.jason.core.data;
 
-//import javax.persistence.*;
+import javax.persistence.*;
 
-//@Entity
-//@Table(name = "climber_profile")
+@Entity
+@Table(name = "climber_profile")
 public class Climber {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
-//    @Column(name = "name")
+    @Column(name = "name")
     private String name;
-//    @Column(name = "points")
+    @Column(name = "points")
     private int points;
-
-
-    public Climber(int id, String name, int points){
-        this.id = id;
-        this.name = name;
-        this.points = points;
-    }
 
     public int getId() {
         return id;
